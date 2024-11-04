@@ -26,7 +26,7 @@ testOrderName = checkOrderName(orderName);
 
 while (testOrderName == false) {
   orderName = prompt(
-    `Please enter a pizza on the menu. On our menu we have ${vegetarian}, ${hawaiian} and ${pepperoni}`
+    `Please enter a pizza thats on the menu. On our menu we have ${vegetarian}, ${hawaiian} and ${pepperoni}`
   );
   testOrderName = checkOrderName(orderName);
 }
