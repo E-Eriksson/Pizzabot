@@ -25,8 +25,8 @@ cookingTime = (quantity) => {
   }
 };
 
-amount = 0;
-pizzatype = "";
+// amount = 0;  used for debugging
+// pizzatype = ""; used for debugging
 
 pizzaOrder = () => {
   amount = document.getElementById("amount").value;
